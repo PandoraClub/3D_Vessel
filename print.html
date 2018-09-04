@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>BAPLIE Viewer Online - 2D Vessel</title>
+		<link rel="stylesheet" href="system/css/styles.css" />
+		<link rel="stylesheet" href="system/lib/css/colorpicker/colorjoe.css" />
+        <style>
+            body { overflow: auto;}
+        </style>
+	</head>
+	<body>
+        <!-- --------------------------
+           Developed by www.saants.es
+        --------------------------- -->    
+
+        <button id="btnLaunch" class="btnLaunch">Print PDF</button>
+
+        <img id="image-test" src="" style="background:#f4f4f4" />
+
+        <script>
+            var generatePdfRoute = "php/generatePDF.php";
+            var writeColorsRoute = "php/writeColors.php";
+            var userSettings = { 
+                    colors: {
+                        "w.1": "#d05d5d",
+                        "w.0": "#89b360"
+                    }
+                };
+
+        </script>
+        
+		<!--[if IE]>
+    	<script src="system/lib/js/polyfills/browser-polyfill.min.js"></script>
+		<script src="system/lib/js/polyfills/es6-promise.js"></script>
+		<![endif]-->
+        <script src="system/lib/js/colorpicker/min/one-color-min.js"></script>
+        <script src="system/lib/js/colorpicker/min/colorjoe-min.js"></script>
+        <script src="system/lib/js/underscore/underscore-min.js"></script>
+        <script src="system/lib/js/jquery/jquery-3.1.1.min.js"></script>
+        <script src="system/lib/js/jquery/upload-progress.js"></script>
+        <script src="system/js/build/app2d.js"></script>
+
+	</body>
+</html>

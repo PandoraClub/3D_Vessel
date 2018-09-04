@@ -1,0 +1,10 @@
+# Exported from 3D Builder
+
+newmtl base
+Kd 0.000000 0.643137 0.839216
+
+newmtl cylinder
+Kd 0.800000 0.800000 0.800000
+
+newmtl pipes
+Kd 0.549020 0.549020 0.549020

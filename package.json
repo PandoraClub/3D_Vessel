@@ -1,0 +1,34 @@
+{
+  "name": "3dvessels",
+  "version": "1.1.0",
+  "description": "3D Vessels",
+  "main": "app.js",
+  "keywords": [
+    "3d"
+  ],
+  "author": "Francisco Gutiérrez",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^6.1.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/baplieviewer/3DModel.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/baplieviewer/3DModel/issues"
+  },
+  "homepage": "https://gitlab.com/baplieviewer/3DModel#README"
+}
